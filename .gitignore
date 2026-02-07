@@ -11,3 +11,4 @@ data/vector_store/
 
 # Ollama local caches (if created in repo)
 ollama/
+src/customer_support_bot.egg-info/
