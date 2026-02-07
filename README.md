@@ -4,6 +4,9 @@ End-to-end autonomous support agent using LangChain, RAG, and local LLMs (Ollama
 Includes memory management, context-aware escalation logic, safety guardrails,
 an evaluation stack, and a minimal web UI.
 
+<img width="1078" height="1094" alt="Screenshot 2026-02-07 at 12 09 03 PM" src="https://github.com/user-attachments/assets/5e8fb34e-57ec-43a7-af31-78443f81fc82" />
+
+
 ## What This App Does
 - Maintains session memory (last N turns, summary stub)
 - Retrieves relevant RAG chunks and builds prompts
