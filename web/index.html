@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Customer Support Bot</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Customer Support Bot</h1>
+        <p class="subtitle">Local LLM-powered support agent</p>
+      </header>
+      <section id="chat" class="chat"></section>
+      <form id="chat-form" class="chat-form">
+        <input
+          id="message-input"
+          type="text"
+          placeholder="Ask a question..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+      <section class="meta">
+        <span id="status">Status: idle</span>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
